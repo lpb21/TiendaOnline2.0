@@ -1,0 +1,24 @@
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.registro {
+  width: 540px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+/* 
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+} */

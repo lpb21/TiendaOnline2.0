@@ -1,0 +1,8 @@
+{
+  "esversion": 9,
+  "-W117": false,
+  "-W097": false,
+  "undef": true,
+  "unused": true,
+  "-W144": false
+}
