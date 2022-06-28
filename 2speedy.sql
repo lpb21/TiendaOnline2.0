@@ -43,11 +43,11 @@ CREATE TABLE `carrito` (
 --
 
 INSERT INTO `carrito` (`idcarrito`, `productoId`, `usuarioId`, `cantidad`, `comprado`, `fechaMvto`, `talla`) VALUES
-(20, 'BJER019', 'fcotabar@gmail.com', 1, 1, '2020-12-24 18:00:01', 's'),
-(21, 'BJER019', 'fcotabar@gmail.com', 1, 1, '2020-12-24 18:01:19', 'm'),
-(22, 'BJER019', 'fcotabar@gmail.com', 1, 1, '2020-12-24 18:07:38', 's'),
-(27, 'BJER019', 'fcotabar@gmail.com', 1, 1, '2021-01-18 02:28:35', 'm'),
-(32, 'BJER018', 'fcotabar@gmail.com', 2, 1, '2021-02-14 01:02:50', 'm');
+(20, 'BJER019', 'leonardoparra@gmail.com', 1, 1, '2020-12-24 18:00:01', 's'),
+(21, 'BJER019', 'leonardoparra@gmail.com', 1, 1, '2020-12-24 18:01:19', 'm'),
+(22, 'BJER019', 'leonardoparra@gmail.com', 1, 1, '2020-12-24 18:07:38', 's'),
+(27, 'BJER019', 'leonardoparra@gmail.com', 1, 1, '2021-01-18 02:28:35', 'm'),
+(32, 'BJER018', 'leonardoparra@gmail.com', 2, 1, '2021-02-14 01:02:50', 'm');
 
 -- --------------------------------------------------------
 
@@ -138,7 +138,7 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`usuarioId`, `nombre`, `apellido`, `pwd`, `tel`, `ciudad`) VALUES
 ('ejemplo1@gmail.com', 'Ejemplo', 'TSP', '12', 4934893, 'Medellín'),
-('fcotabar@gmail.com', 'Francisco', 'Tabares', '1', 888888, 'Bogotá');
+('leonardoparra@gmail.com', 'leonardo', 'parra', '1', 888888, 'Bogotá');
 
 --
 -- Indexes for dumped tables
